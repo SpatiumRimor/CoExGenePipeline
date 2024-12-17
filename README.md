@@ -36,5 +36,7 @@ Identificação de genes centrais e módulos associados a tecidos e fases de des
 David Daniel Ferreira dos Santos
 
 Universidade: PUC Goiás
+
 Orientadora: Profª Dra. Mariana Pires de Campos Telles
+
 Co-Orientadora: Profª Dra. Renata de Oliveira Dias (UFG)
