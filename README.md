@@ -3,6 +3,7 @@ Pipeline de Bioinformática para Análise de Redes de Co-Expressão Gênica
 Este repositório contém o pipeline de bioinformática desenvolvido para a análise de redes de co-expressão gênica usando dados públicos de RNA-seq, com foco em Spodoptera frugiperda, uma importante praga agrícola.
 
 🧬 Descrição do Projeto
+
 Com o crescimento do uso de dados públicos de RNA-seq, este pipeline foi criado para:
 
 Obter e filtrar dados do banco SRA (NCBI).
@@ -11,6 +12,7 @@ Predizer redes de co-expressão gênica usando WGCNA.
 O objetivo é explorar os genes associados ao desenvolvimento de Spodoptera frugiperda, contribuindo para pesquisas de controle de pragas.
 
 📋 Metodologia
+
 O pipeline é composto pelas seguintes etapas:
 
 1. Obtenção dos Dados
@@ -30,6 +32,7 @@ Predição de módulos de co-expressão gênica com WGCNA.
 Identificação de genes centrais e módulos associados a tecidos e fases de desenvolvimento.
 
 👨‍💻 Autor
+
 David Daniel Ferreira dos Santos
 
 Universidade: PUC Goiás
