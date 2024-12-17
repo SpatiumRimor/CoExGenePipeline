@@ -15,26 +15,22 @@ O objetivo é explorar os genes associados ao desenvolvimento de Spodoptera frug
 
 O pipeline é composto pelas seguintes etapas:
 
-1. Obtenção dos Dados
-Busca no NCBI-SRA por dados de RNA-seq relacionados a S. frugiperda.
-Automação do download via script Bash usando prefetch e fasterq-dump.
-2. Pré-Processamento dos Dados
-Remoção de leituras de baixa qualidade com CutAdapt e Trimmomatic.
-Filtragem de sequências contaminantes com critérios baseados no conteúdo de GC e cobertura genômica.
-3. Análise de Expressão Gênica
-Utilização do pipeline nf-core/rnaseq para alinhamento e quantificação dos dados de expressão gênica.
-Ferramentas utilizadas:
-Alinhamento: STAR
-Quantificação: RSEM
-Controle de Qualidade: FastQC, SortMeRNA, MultiQC
-4. Análise de Redes de Co-Expressão
-Predição de módulos de co-expressão gênica com WGCNA.
-Identificação de genes centrais e módulos associados a tecidos e fases de desenvolvimento.
+1. Download dos dados do SRA e conversão para formato FASTQ:
+Obtenção dos dados públicos de RNA-seq e conversão para o formato FASTQ.
+
+2. Otimização de processamento através de divisão em grupos:
+Os dados são organizados em grupos para otimizar a execução e o uso de recursos.
+
+3. Execução em ciclo do pipeline nf-core/rnaseq:
+Processamento dos dados em ciclos, incluindo alinhamento, quantificação da expressão gênica e controle de qualidade.
+
+4. Execução da análise de WGCNA:
+Análise das redes de co-expressão gênica para identificar padrões de expressão em diferentes tecidos e fases de vida.
 
 👨‍💻 Autor
 
 David Daniel Ferreira dos Santos
 
-Universidade: PUC Goiás
-Orientadora: Profª Dra. Mariana Pires de Campos Telles
-Co-Orientadora: Profª Dra. Renata de Oliveira Dias (UFG)
+Universidade: PUC Goiás  
+Orientadora: Profª Dra. Mariana Pires de Campos Telles  
+Co-Orientadora: Profª Dra. Renata de Oliveira Dias (UFG)  
